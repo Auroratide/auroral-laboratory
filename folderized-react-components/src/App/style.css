@@ -1,0 +1,10 @@
+body {
+  font-size: 1.125rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  max-width: 30rem;
+  padding: 2rem 0.5rem;
+  margin: auto;
+}

@@ -1,0 +1,18 @@
+/**
+ * This is the styling for the closable alert component. This determines the
+ * look and feel of the component, whereas component.jsx dictates the
+ * structure.
+ */
+
+.closable-alert {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.closable-alert_content {
+  padding: 0.5rem;
+}

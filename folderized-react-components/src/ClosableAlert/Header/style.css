@@ -1,0 +1,27 @@
+/**
+ * Header is a strict subcomponent of ClosableAlert. Therefore, it is grouped
+ * inside the ClosableAlert folder. Note that since Header is itself a
+ * component, it also is its own folder.
+ */
+
+.closable-alert__header {
+  display: flex;
+  font-weight: bold;
+  background-color: #218838;
+  border-bottom: 1px solid #1e7e34;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+}
+
+.closable-alert__header_title {
+  flex: 1;
+}
+
+.closable-alert__header_close {
+  font: inherit;
+  color: #ffffff;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
