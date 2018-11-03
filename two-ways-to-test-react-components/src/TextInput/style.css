@@ -1,0 +1,14 @@
+.text-input {
+  margin-bottom: 3rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #999;
+  font-size: 1.25rem;
+  box-shadow: 0 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.2) inset;
+  padding: 0.125rem 0.5rem;
+}
+
+.text-input:focus {
+  box-shadow: none;
+  border-color: #448DDD;
+}
