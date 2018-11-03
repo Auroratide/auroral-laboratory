@@ -5,6 +5,14 @@ import ColoredBox from './component';
 
 configure({ adapter: new Adapter() });
 
+/**
+ * The <ColoredBox /> component has some internal rendering logic for
+ * determining the color of the text. Therefore, we test that logic in the
+ * render test as shown below.
+ * 
+ * We keep our sanity rendering test as a safety net.
+ */
+
 describe('<ColoredBox />', () => {
   it('renders', () => {
     expect(shallow(<ColoredBox />)).toHaveLength(1);
